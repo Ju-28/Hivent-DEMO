@@ -1,0 +1,394 @@
+[
+  {
+    "id": 1,
+    "name": "Reload",
+    "city": "Köln",
+    "theme": ["Hip Hop", "Trap"],
+    "attendees": "10-50"
+  },
+  {
+    "id": 2,
+    "name": "Cactus",
+    "city": "Berlin",
+    "theme": ["Nature", "Cacti", "Trap"],
+    "attendees": "10-50"
+  },
+  {
+    "id": 3,
+    "name": "Ice Box",
+    "city": "Munich",
+    "theme": ["Food", "Frozen Desserts", "Trap"],
+    "attendees": "10-50"
+  },
+  {
+    "id": 4,
+    "name": "Sirens",
+    "city": "Hamburg",
+    "theme": ["Electronic Music", "Synthwave"],
+    "attendees": "10-50"
+  },
+  {
+    "id": 5,
+    "name": "Space Vibes",
+    "city": "Frankfurt",
+    "theme": ["Space", "Sci-Fi", "Future"],
+    "attendees": "10-50"
+  },
+  {
+    "id": 6,
+    "name": "Gamescom",
+    "city": "Köln",
+    "theme": ["Gaming", "Technology"],
+    "attendees": "10-50"
+  },
+  {
+    "id": 7,
+    "name": "FIBO",
+    "city": "Köln",
+    "theme": ["Fitness", "Health"],
+    "attendees": "10-50"
+  },
+  {
+    "id": 8,
+    "name": "Cybernetic",
+    "city": "Düsseldorf",
+    "theme": ["Technology", "Artificial Intelligence"],
+    "attendees": "50-150"
+  },
+  {
+    "id": 9,
+    "name": "Nebula",
+    "city": "Stuttgart",
+    "theme": ["Space", "Astronomy"],
+    "attendees": "50-150"
+  },
+  {
+    "id": 10,
+    "name": "Quantum Leap",
+    "city": "Dresden",
+    "theme": ["Science", "Physics"],
+    "attendees": "50-150"
+  },
+  {
+    "id": 11,
+    "name": "Aurora",
+    "city": "Bremen",
+    "theme": ["Nature", "Trap"],
+    "attendees": "50-150"
+  },
+  {
+    "id": 12,
+    "name": "Vortex",
+    "city": "Hannover",
+    "theme": ["Science", "Physics"],
+    "attendees": "50-150"
+  },
+  {
+    "id": 13,
+    "name": "Galactic",
+    "city": "Leipzig",
+    "theme": ["Space", "Exploration"],
+    "attendees": "50-150"
+  },
+  {
+    "id": 14,
+    "name": "Matrix",
+    "city": "Nuremberg",
+    "theme": ["Technology", "Virtual Reality"],
+    "attendees": "150-500"
+  },
+  {
+    "id": 15,
+    "name": "Echoes",
+    "city": "Bochum",
+    "theme": ["Music", "Sound"],
+    "attendees": "150-500"
+  },
+  {
+    "id": 16,
+    "name": "Mirage",
+    "city": "Dortmund",
+    "theme": ["Illusion", "Phenomenon"],
+    "attendees": "150-500"
+  },
+  {
+    "id": 17,
+    "name": "Phoenix",
+    "city": "Bonn",
+    "theme": ["Mythology", "Rebirth"],
+    "attendees": "150-500"
+  },
+  {
+    "id": 18,
+    "name": "Blizzard",
+    "city": "Freiburg",
+    "theme": ["Weather", "Snow"],
+    "attendees": "150-500"
+  },
+  {
+    "id": 19,
+    "name": "Inferno",
+    "city": "Mannheim",
+    "theme": ["Fire", "Heat"],
+    "attendees": "150-500"
+  },
+  {
+    "id": 20,
+    "name": "Horizon",
+    "city": "Karlsruhe",
+    "theme": ["Nature", "Sky"],
+    "attendees": "150-500"
+  },
+  {
+    "id": 21,
+    "name": "Revolution",
+    "city": "Mainz",
+    "theme": ["Change", "Innovation"],
+    "attendees": "150-500"
+  },
+  {
+    "id": 22,
+    "name": "Mystic",
+    "city": "Augsburg",
+    "theme": ["Mystery", "Magic"],
+    "attendees": "500<"
+  },
+  {
+    "id": 23,
+    "name": "Pandora",
+    "city": "Mönchengladbach",
+    "theme": ["Mythology", "Fantasy"],
+    "attendees": "500<"
+  },
+  {
+    "id": 24,
+    "name": "Eclipse",
+    "city": "Wiesbaden",
+    "theme": ["Space", "Phenomenon"],
+    "attendees": "500<"
+  },
+  {
+    "id": 25,
+    "name": "Tsunami",
+    "city": "Gelsenkirchen",
+    "theme": ["Nature", "Water"],
+    "attendees": "500<"
+  },
+  {
+    "id": 26,
+    "name": "Avalanche",
+    "city": "Aachen",
+    "theme": ["Nature", "Snow"],
+    "attendees": "500<"
+  },
+  {
+    "id": 27,
+    "name": "Zenith",
+    "city": "Braunschweig",
+    "theme": ["Peak", "Success"],
+    "attendees": "500<"
+  },
+  {
+    "id": 28,
+    "name": "Feuerwerk",
+    "city": "Köln",
+    "theme": ["Pyrotechnik", "Feuer"],
+    "attendees": "10-50"
+  },
+  {
+    "id": 29,
+    "name": "Waldgeist",
+    "city": "Berlin",
+    "theme": ["Natur", "Wald"],
+    "attendees": "10-50"
+  },
+  {
+    "id": 30,
+    "name": "Eiszeit",
+    "city": "München",
+    "theme": ["Eis", "Winter"],
+    "attendees": "10-50"
+  },
+  {
+    "id": 31,
+    "name": "Klangwelt",
+    "city": "Hamburg",
+    "theme": ["Musik", "Klang"],
+    "attendees": "10-50"
+  },
+  {
+    "id": 32,
+    "name": "Sternenlicht",
+    "city": "Frankfurt",
+    "theme": ["Sterne", "Himmel"],
+    "attendees": "10-50"
+  },
+  {
+    "id": 33,
+    "name": "Pixelrausch",
+    "city": "Köln",
+    "theme": ["Pixel", "Digital"],
+    "attendees": "10-50"
+  },
+  {
+    "id": 34,
+    "name": "Kraftpaket",
+    "city": "Köln",
+    "theme": ["Fitness", "Kraft"],
+    "attendees": "10-50"
+  },
+  {
+    "id": 35,
+    "name": "Digiworld",
+    "city": "Düsseldorf",
+    "theme": ["Digitalisierung", "Internet"],
+    "attendees": "50-150"
+  },
+  {
+    "id": 36,
+    "name": "Weltallwissen",
+    "city": "Stuttgart",
+    "theme": ["Astronomie", "Universum"],
+    "attendees": "50-150"
+  },
+  {
+    "id": 37,
+    "name": "Quantensprung",
+    "city": "Dresden",
+    "theme": ["Wissenschaft", "Quanten"],
+    "attendees": "50-150"
+  },
+  {
+    "id": 38,
+    "name": "Nordlichter",
+    "city": "Bremen",
+    "theme": ["Natur", "Nordlicht"],
+    "attendees": "50-150"
+  },
+  {
+    "id": 39,
+    "name": "Wirbelwind",
+    "city": "Hannover",
+    "theme": ["Wind", "Sturm"],
+    "attendees": "50-150"
+  },
+  {
+    "id": 40,
+    "name": "Weltallreise",
+    "city": "Leipzig",
+    "theme": ["Weltraum", "Reisen"],
+    "attendees": "50-150"
+  },
+  {
+    "id": 41,
+    "name": "Virtuelle Welt",
+    "city": "Nürnberg",
+    "theme": ["Virtualität", "Simulation"],
+    "attendees": "150-500"
+  },
+  {
+    "id": 42,
+    "name": "Schallwellen",
+    "city": "Bochum",
+    "theme": ["Schall", "Wellen"],
+    "attendees": "150-500"
+  },
+  {
+    "id": 43,
+    "name": "Illusionäre Welt",
+    "city": "Dortmund",
+    "theme": ["Illusion", "Zauber"],
+    "attendees": "150-500"
+  },
+  {
+    "id": 44,
+    "name": "Feuervogel",
+    "city": "Bonn",
+    "theme": ["Mythologie", "Phönix"],
+    "attendees": "150-500"
+  },
+  {
+    "id": 45,
+    "name": "Schneesturm",
+    "city": "Freiburg",
+    "theme": ["Wetter", "Schnee"],
+    "attendees": "150-500"
+  },
+  {
+    "id": 46,
+    "name": "Feuersturm",
+    "city": "Mannheim",
+    "theme": ["Feuer", "Sturm"],
+    "attendees": "150-500"
+  },
+  {
+    "id": 47,
+    "name": "Himmelszelt",
+    "city": "Karlsruhe",
+    "theme": ["Natur", "Himmel"],
+    "attendees": "150-500"
+  },
+  {
+    "id": 48,
+    "name": "Innovationswelle",
+    "city": "Mainz",
+    "theme": ["Innovation", "Welle"],
+    "attendees": "150-500"
+  },
+  {
+    "id": 49,
+    "name": "Magische Welt",
+    "city": "Augsburg",
+    "theme": ["Magie", "Mystik"],
+    "attendees": "500<"
+  },
+  {
+    "id": 50,
+    "name": "Schatzkammer",
+    "city": "Mönchengladbach",
+    "theme": ["Schatz", "Fantasie"],
+    "attendees": "500<"
+  },
+  {
+    "id": 51,
+    "name": "Weltraumfinsternis",
+    "city": "Wiesbaden",
+    "theme": ["Weltraum", "Finsternis"],
+    "attendees": "500<"
+  },
+  {
+    "id": 52,
+    "name": "Flutwelle",
+    "city": "Gelsenkirchen",
+    "theme": ["Natur", "Wasser"],
+    "attendees": "500<"
+  },
+  {
+    "id": 53,
+    "name": "Lawinenabgrund",
+    "city": "Aachen",
+    "theme": ["Natur", "Lawine"],
+    "attendees": "500<"
+  },
+  {
+    "id": 54,
+    "name": "Gipfelstürmer",
+    "city": "Braunschweig",
+    "theme": ["Gipfel", "Erfolg"],
+    "attendees": "500<"
+  },
+  {
+    "id": 55,
+    "name": "Flammendes Inferno",
+    "city": "Köln",
+    "theme": ["Feuer", "Hölle"],
+    "attendees": "10-50"
+  },
+  {
+    "id": 56,
+    "name": "Wüstenoase",
+    "city": "Berlin",
+    "theme": ["Wüste", "Oase"],
+    "attendees": "10-50"
+  }
+]

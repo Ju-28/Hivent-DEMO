@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Reload",
+    "city": "Köln",
+    "theme": ["Hip Hop", "Trap"],
+    "attendees": "10-50",
+    "nextDate": "02.08.2024",
+    "slogan": "Catch some Reload vibes!",
+    "description": "RELOAD is a party series from Düsseldorf, where people get together who feel closely connected to hiphop culture and the happenings around it. The intention of the event is to finally get rid of the mainstream sound, which people are getting more and more tired of every week and to create a vibe that has never existed before. You can expect a refreshing mix of the hottest Hiphop, Trap, UK, Drill & Grime tunes. Come thru and enjoy.",
+    "websiteLink": "https://reload-wav.netlify.app/",
+    "ticketLink": "https://www.eventbrite.com/e/reload-registrierung-755860147047",
+    "hiventLink": "link/to/hivent-page",
+    "image": "/images/reload_weiß.png",
+    "icon": "link/to/icon"
+  },
+  {
+    "id": 2,
+    "name": "Sirens",
+    "city": "Düsseldorf",
+    "theme": ["House", "Techno"],
+    "attendees": "50-100",
+    "nextDate": "15.08.2024",
+    "slogan": "Feel the Sirens' call!",
+    "description": "SIRENS is a groundbreaking event series originating from Düsseldorf. It brings together a community deeply immersed in the electronic music scene, breaking away from the mundane to deliver an electrifying experience. With a captivating mix of House and Techno, SIRENS promises a night of unforgettable beats and rhythms. Join us to experience the ultimate electronic journey.",
+    "websiteLink": "link/to/event",
+    "ticketLink": "link/to/tickets",
+    "hiventLink": "link/to/hivent-page",
+    "image": "link/to/image2",
+    "icon": "link/to/icon2"
+  },
+  {
+    "id": 3,
+    "name": "Pulse",
+    "city": "Berlin",
+    "theme": ["Drum and Bass", "Jungle", "Food"],
+    "attendees": "100-200",
+    "nextDate": "22.08.2024",
+    "slogan": "Feel the Pulse!",
+    "description": "PULSE is an exhilarating event series that takes place in the heart of Berlin. Dedicated to Drum and Bass and Jungle, this party is all about high energy and non-stop rhythms. Join the crowd and experience the pulsating beats that define the underground scene. PULSE is where music lovers come to life and dance the night away.",
+    "websiteLink": "link/to/event",
+    "ticketLink": "link/to/tickets",
+    "hiventLink": "link/to/hivent-page",
+    "image": "link/to/image3",
+    "icon": "link/to/icon3"
+  },
+  {
+    "id": 4,
+    "name": "Echoes",
+    "city": "Hamburg",
+    "theme": ["Indie", "Alternative", "Tattoos"],
+    "attendees": "200-300",
+    "nextDate": "29.08.2024",
+    "slogan": "Echoes of the Underground!",
+    "description": "ECHOES is a unique event series hosted in Hamburg, focusing on Indie and Alternative music. It brings together enthusiasts who appreciate the raw and authentic sound of the underground music scene. With a lineup featuring some of the most talented indie and alternative artists, ECHOES is a celebration of musical diversity and creativity. Come and immerse yourself in the echoes of the underground.",
+    "websiteLink": "link/to/event",
+    "ticketLink": "link/to/tickets",
+    "hiventLink": "link/to/hivent-page",
+    "image": "link/to/image4",
+    "icon": "link/to/icon4"
+  }
+]

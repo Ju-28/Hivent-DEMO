@@ -1,0 +1,19 @@
+{
+  "id": "0",
+  "firstName": "Max",
+  "lastName": "Mustermann",
+  "email": "maxmuster@gmail.com",
+  "userCreated": "16-06-2024",
+  "tier": "Premium",
+  "profilePicture": "https://link/to/image",
+  "favorites": [
+    "Reload",
+    "Cactus",
+    "Ice Box",
+    "Sirens",
+    "Reload",
+    "Cactus",
+    "Ice Box"
+  ],
+  "recommended": ["Tsunami", "Eclipse", "Digiworld"]
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "name": "Bunker",
+    "city": "Köln",
+    "postalCode": "50667",
+    "street": "Ehrenstraße",
+    "houseNumber": "102",
+    "attendees": "150-500",
+    "theme": ["Partys", "After Work", "Chill"],
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem.",
+    "websiteLink": "link/to/location",
+    "hiventLink": "link/to/hivent-page"
+  },
+  {
+    "id": 2,
+    "name": "Haven",
+    "city": "Düsseldorf",
+    "postalCode": "40213",
+    "street": "Königsallee",
+    "houseNumber": "68",
+    "attendees": "150-500",
+    "theme": ["Lounge", "After Work", "Rooftop"],
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem.",
+    "websiteLink": "link/to/location2",
+    "hiventLink": "link/to/hivent-page"
+  },
+  {
+    "id": 3,
+    "name": "Underground",
+    "city": "Berlin",
+    "postalCode": "10179",
+    "street": "Alexanderplatz",
+    "houseNumber": "5",
+    "attendees": "50-150",
+    "theme": ["Concerts", "Partys"],
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem.",
+    "websiteLink": "link/to/location3",
+    "hiventLink": "link/to/hivent-page"
+  },
+  {
+    "id": 4,
+    "name": "Wave",
+    "city": "Hamburg",
+    "postalCode": "20354",
+    "street": "Jungfernstieg",
+    "houseNumber": "24",
+    "attendees": "500<",
+    "theme": ["Food", "Chill", "Beachbar"],
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem.",
+    "websiteLink": "link/to/location4",
+    "hiventLink": "link/to/hivent-page"
+  }
+]

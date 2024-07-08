@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=Snippet&display=swap");
+
+.brandname {
+  font-family: "Snippet", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.business-my-events-locations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  color: rgb(189, 189, 189);
+}
+
+.business-my-events-locations-main {
+  width: 90%;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  position: relative;
+  margin-top: 7rem;
+  animation: PageFadeIn 1s forwards;
+}
+
+@keyframes PageFadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.business-my-events-locations-hero {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.business-my-events-locations-hero h1 {
+  font-size: 90px;
+  font-weight: 350;
+}
+
+.my-events-locations-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+}
+
+.switch-page-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.switch-page-buttons div {
+  border: solid 1px #8103ff;
+  padding-block: 1rem;
+  padding-inline: 1.5rem;
+  border-radius: 5px;
+  min-width: 180px;
+  text-align: center;
+  cursor: pointer;
+  backdrop-filter: blur(3px);
+  z-index: 3;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.switch-page-buttons div.active-button {
+  background-color: #aa55ff;
+  text-align: center;
+  box-shadow: 0 0 10px 0 #8103ff;
+  border: solid 1px #9b37ff;
+  color: black !important;
+  font-weight: 600;
+}
+
+.switch-page-buttons div:hover {
+  background-color: #8103ff;
+  transform: scale(0.95);
+  box-shadow: 0 0 10px 0 #8103ff;
+  border: solid 1px #9b37ff;
+  color: black;
+}
+
+.my-events,
+.my-locations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  margin-block: 3rem;
+  min-width: 1200px;
+}
+
+.event-card,
+.location-card {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border-radius: 15px;
+  background-color: rgba(161, 161, 161, 0.11);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 40px black;
+  justify-content: center;
+  border: 1px solid #ffffff22;
+  overflow: scroll;
+  scrollbar-width: none;
+  scrollbar-color: transparent transparent;
+  gap: 8rem;
+  padding-inline: 2rem;
+  padding-block: 3rem;
+}
+
+.event-card img,
+.location-card img {
+  width: 200px;
+  height: 125px;
+}
+
+.event-information-list,
+.location-information-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.event-information,
+.location-information {
+  display: flex;
+  flex-direction: row;
+  max-width: 500px;
+  gap: 1rem;
+}
+
+.event-information.hivent-page a,
+.event-information.website a,
+.location-information.hivent-page a,
+.location-information.website a {
+  all: unset;
+  border: solid 1px #8103ff;
+  padding-block: 1rem;
+  padding-inline: 1.5rem;
+  border-radius: 5px;
+  min-width: 150px;
+  text-align: center;
+  cursor: pointer;
+  backdrop-filter: blur(3px);
+  z-index: 3;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.event-information.hivent-page a:hover,
+.event-information.website a:hover,
+.location-information.hivent-page a:hover,
+.location-information.website a:hover {
+  background-color: #8103ff;
+  transform: scale(0.95);
+  box-shadow: 0 0 10px 0 #8103ff;
+  border: solid 1px #9b37ff;
+  color: black;
+  font-weight: 600;
+}
+
+.event-buttons,
+.location-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.event-button.edit,
+.location-button.edit {
+  border: solid 1px #8103ff;
+  padding-block: 1rem;
+  padding-inline: 1.5rem;
+  border-radius: 5px;
+  min-width: 220px;
+  text-align: center;
+  cursor: pointer;
+  backdrop-filter: blur(3px);
+  z-index: 3;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.event-button.delete,
+.location-button.delete {
+  border: solid 1px #ff0303;
+  padding-block: 1rem;
+  padding-inline: 1.5rem;
+  border-radius: 5px;
+  min-width: 220px;
+  text-align: center;
+  cursor: pointer;
+  backdrop-filter: blur(3px);
+  z-index: 3;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.event-button.edit:hover,
+.location-button.edit:hover {
+  background-color: #8103ff;
+  transform: scale(0.95);
+  box-shadow: 0 0 10px 0 #8103ff;
+  border: solid 1px #9b37ff;
+  color: black;
+  font-weight: 600;
+}
+
+.event-button.delete:hover,
+.location-button.delete:hover {
+  background-color: #ff0303;
+  transform: scale(0.95);
+  box-shadow: 0 0 10px 0 #ff0303;
+  border: solid 1px #ff0303;
+  color: black;
+  font-weight: 600;
+}
+
+.delete-popup-wrapper {
+  width: 100svw;
+  height: 100svh;
+  z-index: 1000 !important;
+  background-color: rgba(0, 0, 0, 0.575);
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-popup {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0 0 40px black;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #ffffff22;
+  overflow: scroll;
+  scrollbar-width: none;
+  scrollbar-color: transparent transparent;
+  max-width: 400px;
+  gap: 2rem;
+  padding-inline: 2rem;
+  padding-block: 3rem;
+}
+
+.popup-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.popup-button.abort {
+  border: solid 1px #8103ff;
+  padding-block: 0.5rem;
+  padding-inline: 1rem;
+  border-radius: 5px;
+  min-width: 150px;
+  text-align: center;
+  cursor: pointer;
+  backdrop-filter: blur(3px);
+  z-index: 3;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.popup-button.abort:hover {
+  background-color: #8103ff;
+  transform: scale(0.95);
+  box-shadow: 0 0 10px 0 #8103ff;
+  border: solid 1px #9b37ff;
+  color: black;
+  font-weight: 600;
+}
+
+.popup-button.delete {
+  border: solid 1px #ff0303;
+  padding-block: 0.5rem;
+  padding-inline: 1rem;
+  border-radius: 5px;
+  min-width: 150;
+  text-align: center;
+  cursor: pointer;
+  backdrop-filter: blur(3px);
+  z-index: 3;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.popup-button.delete:hover {
+  background-color: #ff0303;
+  transform: scale(0.95);
+  box-shadow: 0 0 10px 0 #ff0303;
+  border: solid 1px #ff0303;
+  color: black;
+  font-weight: 600;
+}

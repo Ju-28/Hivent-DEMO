@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Snippet&display=swap");
+
+.brandname {
+  font-family: "Snippet", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.business-analytics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  color: rgb(189, 189, 189);
+}
+
+.business-analytics-main {
+  width: 90%;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  position: relative;
+  margin-top: 7rem;
+  animation: PageFadeIn 1s forwards;
+}
+
+@keyframes PageFadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.analytics-hero {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.analytics-hero h1 {
+  font-size: 90px;
+  font-weight: 350;
+}
+
+.analytics-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  align-items: center;
+  width: 100%;
+  min-height: 500px;
+  margin-bottom: 3rem;
+}
+
+.analytics-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  gap: 2rem;
+  width: 30%;
+  padding: 1rem;
+  padding-block: 2.5rem;
+  border-radius: 15px;
+  background-color: rgba(161, 161, 161, 0.11);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 40px black;
+  border: 1px solid #ffffff22;
+}
+
+.analytics-left h2 {
+  font-size: 60px;
+  margin: 0;
+}
+
+.analytics-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.analytics-sections div {
+  border: solid 1px #8103ff;
+  padding-block: 1rem;
+  padding-inline: 1.5rem;
+  border-radius: 5px;
+  min-width: 220px;
+  text-align: center;
+  cursor: pointer;
+  backdrop-filter: blur(3px);
+  z-index: 1000;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.analytics-sections div.active-buttons {
+  background-color: #aa55ff;
+  box-shadow: 0 0 10px 0 #8103ff;
+  border: solid 1px #9b37ff;
+  color: black !important;
+  font-weight: 600;
+}
+
+.analytics-sections div:hover {
+  background-color: #8103ff;
+  transform: scale(0.95);
+  box-shadow: 0 0 10px 0 #8103ff;
+  border: solid 1px #9b37ff;
+  color: black;
+}
+
+.analytics-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.6rem;
+  height: 100%;
+  width: 65%;
+  padding: 1rem;
+  padding-block: 2.5rem;
+  border-radius: 15px;
+  background-color: rgba(161, 161, 161, 0.11);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 40px black;
+  border: 1px solid #ffffff22;
+}

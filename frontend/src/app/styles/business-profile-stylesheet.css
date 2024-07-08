@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css2?family=Snippet&display=swap");
+
+.brandname {
+  font-family: "Snippet", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.business-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  color: rgb(189, 189, 189);
+  column-gap: 5rem;
+}
+
+.business-profile-main {
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  width: 100%;
+  position: relative;
+  margin-top: 11rem;
+  animation: PageFadeIn 1s forwards;
+}
+
+@keyframes PageFadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.business-profile-hero {
+  margin: 0;
+  font-size: 90px;
+  font-weight: 350;
+}
+
+.business-profile-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1550px;
+  height: 800px;
+  padding-inline: 3rem;
+  padding-block: 3rem;
+  gap: 2rem;
+}
+
+.profile-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.6rem;
+  height: 100%;
+  width: 33%;
+  padding: 1rem;
+  padding-block: 2.5rem;
+  border-radius: 15px;
+  background-color: rgba(161, 161, 161, 0.11);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 40px black;
+  border: 1px solid #ffffff22;
+  overflow: scroll;
+  scrollbar-width: none;
+  scrollbar-color: transparent transparent;
+}
+
+.profile-image {
+  height: 200px;
+  width: 300px;
+  border: 1px solid white;
+  display: flex;
+  box-shadow: 0 0 40px black;
+}
+
+.profile-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-information-header {
+  text-align: center;
+  width: 320px;
+  font-size: 40px;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgb(189, 189, 189);
+}
+
+.profile-information-lists {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: space-between;
+  width: fit-content;
+  max-width: 300px;
+}
+
+.profile-information ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-left: 0;
+}
+
+.profile-information-item {
+  font-weight: 800;
+}
+
+.account-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.change-password {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.change-password:hover {
+  color: #9021ff;
+}
+
+.delete-account {
+  color: #ff0303;
+  cursor: pointer;
+}
+
+.profile-right {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 66%;
+  gap: 2rem;
+}
+
+.profile-member-status-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 40%;
+  border-radius: 15px;
+  background-color: rgba(161, 161, 161, 0.11);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 40px black;
+  /* align-items: center; */
+  justify-content: center;
+  border: 1px solid #ffffff22;
+  overflow: scroll;
+  scrollbar-width: none;
+  scrollbar-color: transparent transparent;
+  gap: 3rem;
+  padding-inline: 2rem;
+}
+
+.profile-insights-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  align-self: center;
+  border-right: solid 1px rgb(189, 189, 189);
+  min-height: 200px;
+}
+
+.profile-insight {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  width: 250px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.profile-insight div {
+  font-weight: 700;
+  border-bottom: solid 1px rgb(189, 189, 189);
+  min-height: 50px;
+  text-align: center;
+}
+
+.profile-insight ul {
+  font-size: 20px;
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.upgrade-button.premium {
+  font-weight: 600 !important;
+  border: solid 1px #8103ff;
+  padding-block: 0.5rem;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  backdrop-filter: blur(3px);
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.upgrade-button.gold {
+  font-weight: 600 !important;
+  border: solid 1px #daa520;
+  padding-block: 0.5rem;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  backdrop-filter: blur(3px);
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.upgrade-button.premium:hover {
+  background-color: #8103ff;
+  box-shadow: 0 0 10px 0 #8103ff;
+  border: solid 1px #8103ff;
+  transform: scale(0.95);
+  color: black !important;
+}
+
+.upgrade-button.gold:hover {
+  background-color: #daa520;
+  box-shadow: 0 0 10px 0 #daa520;
+  border: solid 1px #daa520;
+  transform: scale(0.95);
+  color: black !important;
+}
+
+.profile-right-bottom {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 60%;
+  gap: 2rem;
+}
+
+.profile-favorites,
+.profile-recommended {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+  border-radius: 15px;
+  background-color: rgba(161, 161, 161, 0.11);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 40px black;
+  align-items: center;
+  border: 1px solid #ffffff22;
+  overflow: scroll;
+  scrollbar-width: none;
+  padding: 1rem;
+}
+
+.profile-favorites-header,
+.profile-recommended-header {
+  text-align: center;
+  width: 90%;
+  font-size: 40px;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgb(189, 189, 189);
+}
+
+.profile-favorites-list,
+.profile-recommended-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Changed from center to flex-start */
+  gap: 2rem;
+  width: 100%;
+  height: 100%;
+  padding-inline: 3rem;
+  margin-block: 2rem;
+  overflow-y: auto; /* Ensure vertical overflow is handled */
+  overflow-x: hidden; /* Hide horizontal overflow if any */
+}
+
+.favorites-row,
+.recommended-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3rem;
+  width: 100%;
+  padding-inline: 1.75rem;
+}
+
+.favorite-item,
+.recommended-item {
+  width: 110px;
+  height: 110px;
+  border: 1px solid rgb(189, 189, 189);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Webkit scrollbar styles */
+.profile-favorites-list::-webkit-scrollbar,
+.profile-recommended-list::-webkit-scrollbar {
+  width: 6px;
+  height: 0;
+}
+
+.profile-favorites-list::-webkit-scrollbar-track,
+.profile-recommended-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.profile-favorites-list::-webkit-scrollbar-thumb,
+.profile-recommended-list::-webkit-scrollbar-thumb {
+  background: #8103ff;
+  border-radius: 3px;
+}

@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Snippet&display=swap");
+
+.brandname {
+  font-family: "Snippet", sans-serif !important;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.landing-page-mask {
+  opacity: 0;
+  animation: landingPageFadeIn 1s forwards;
+  background-color: rgb(15, 0, 28);
+  height: 100svh;
+  width: 100svw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+@keyframes landingPageFadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.landing-page-mask img {
+  /* background-color: rgba(21, 0, 39, 0.715); */
+  z-index: 100;
+  position: relative;
+  border-radius: 80%;
+  backdrop-filter: blur(1px);
+  cursor: pointer;
+  height: 350px;
+  width: 350px;
+  /* animation: floating 3s infinite ease-in-out; */
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+.landing-page-buttons {
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.hub-button,
+.analytics-button {
+  border: solid 1px #8103ff;
+  padding-block: 1rem;
+  padding-inline: 1.5rem;
+  border-radius: 5px;
+  min-width: 220px;
+  text-align: center;
+  cursor: pointer;
+  backdrop-filter: blur(3px);
+  z-index: 1000;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.hub-button:hover,
+.analytics-button:hover {
+  background-color: #8103ff;
+  transform: scale(0.95);
+  box-shadow: 0 0 10px 0 #8103ff;
+  border: solid 1px #9b37ff;
+  color: black;
+}
